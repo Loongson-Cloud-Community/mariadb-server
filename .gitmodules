@@ -1,9 +1,6 @@
 [submodule "libmariadb"]
 	path = libmariadb
 	url = https://github.com/MariaDB/mariadb-connector-c.git
-[submodule "storage/rocksdb/rocksdb"]
-	path = storage/rocksdb/rocksdb
-	url = https://github.com/facebook/rocksdb.git
 [submodule "wsrep-lib"]
 	path = wsrep-lib
 	url = https://github.com/codership/wsrep-lib.git
@@ -17,3 +14,7 @@
 [submodule "storage/columnstore/columnstore"]
 	path = storage/columnstore/columnstore
 	url = https://github.com/mariadb-corporation/mariadb-columnstore-engine.git
+[submodule "storage/rocksdb/rocksdb"]
+	path = storage/rocksdb/rocksdb
+	url = https://github.com/Loongson-Cloud-Community/rocksdb.git
+	branch = loongarch_64-mariadb-10.5.18-needed

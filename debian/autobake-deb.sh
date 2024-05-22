@@ -73,7 +73,7 @@ case "${LSBNAME}" in
     ;&
   buster)
     ;&
-  bullseye|bookworm)
+  bullseye|bookworm|trixie)
     # mariadb-plugin-rocksdb in control is 4 arches covered by the distro rocksdb-tools
     # so no removal is necessary.
     ;&
